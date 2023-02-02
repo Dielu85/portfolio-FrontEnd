@@ -23,7 +23,7 @@
     z-index: 1;
     position: relative;
 }
-div#info-action {
+div#info-actions {
     display: flex;
 }
 .btn-edit {
