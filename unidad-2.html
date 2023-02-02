@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="Styles.css">
 
-
   </head> 
   <body>
    <div class="nav-bar">
@@ -62,24 +61,50 @@
      <div id="info" style="padding: 16px;">
        <div id="info-img">
          <img class="profile-image" src="yo.jpg" alt="Diego Gomez"></img>
-           <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>        
+           <div class="btn-edit" onclick="cambiar_parrafo()">
+            <a href="#" class="btn-right">
+              <i class="fa fa-pen"></i>
+            </a>
+          </div>        
        </div>
        <div id="info-data">
-        <div>
+         <div>
           <h1 class="title">Diego Gomez</h1>
           <div id="info-company">Estudiante de Programación en INTI</div>
           <div id="info-contact">
             <span>Buenos Aires (Argentina)</span>
             <span><a href="#">Información de contacto</a> </span>
           </div>
-        </div>
-        <ul>
-          
-        </ul>
-        
+         </div>
+         <ul id="info-details">
+          <li><a href="#">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.fundacionkonex.org%2Fcustom%2Fweb%2Fdata%2Fimagenes%2Frepositorio%2F2010%2F6%2F1%2F2708%2F20160316122841b1f62fa99de9f27a048344d55c5ef7a6.jpg&f=1&nofb=1&ipt=8165c4f4675ccb80de66efe9e58a0302b10efb598a8086cce081904a7bd56f23&ipo=images" alt="Logo INTI">
+            <h2>INTI</h2>
+          </a></li>
+          <li><a href="#">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.cA9tMvO6eLqrvE30qZXTRgHaIp%26pid%3DApi&f=1&ipt=0cce63d4231fa5be9c300f318565b46f1d6c5a73ed14706605450671e476c476&ipo=images" alt="Colegio Lausanne logo">
+            <h2>Colegio Lausanne</h2>
+          </a></li>          
+         </ul>       
+       </div>
+       <div id="info-actions">
+
        </div>
       </div>
-    </div>
+   </div>
+
+     <script>
+        function cambiar_parrafo(){
+        document.getElementById("edit-acercade").style.display="block";
+        let text = document.getElementById("text-acercade").innerText;
+        console.log(text);
+        }
+        function myfunction2(value){
+       document.getElementById("text-acercade").innerText=value;
+       }
+    
+
+    </script>
 
     <script src="https://kit.fontawesome.com/39e8db884f.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
