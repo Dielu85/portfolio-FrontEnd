@@ -23,17 +23,28 @@
     z-index: 1;
     position: relative;
 }
-div#info-actions {
-    display: flex;
+
+#info-data {
+    float: left;
 }
+
+
+#info-contact {
+    width: 300px;
+}
+#info-company {
+    width: 300px;
+}
+
 .btn-edit {
     
 }
 .btn-right {
-    display: flex;
+    display: inline-flex;
     position: relative;
-    left: 170px;
     top: -40px;
+    right: -170px;
+    color: black;
 
 }
 .title {
@@ -44,4 +55,30 @@ div#info-actions {
     width: 100%;
     max-height: 400px;
     height: auto;
+}
+#info-details {
+    float: right; 
+    display: flex;
+    position: relative;
+}
+#info-details a {
+    text-decoration: none;
+}
+#info-details li {
+    list-style-type: none;
+}
+#info-details img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+#info-details h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline; 
+    font-size: medium;
+}
+#info-details h2 {
+    font-size: medium;
+    color: black;
+    text-align: center;
 }
