@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
+import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EncabezadoComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
