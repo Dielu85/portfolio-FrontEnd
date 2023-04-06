@@ -1,0 +1,89 @@
+{
+    "informacion_personal": {
+      "nombre": "Diego Martin Gomez",
+      "backimg":"https://i.pinimg.com/originals/b7/4b/2d/b74b2dfeca58f0955c51876c24fcf227.jpg",
+      "foto":"https://media.licdn.com/dms/image/D4D03AQFv6Pez9hcF-w/profile-displayphoto-shrink_800_800/0/1674789243618?e=2147483647&v=beta&t=L1QgvRiziiSU_L62R6_kreFm0R26LqymszOUEd6Ce7Y",
+      "titulo": "Full Stack Developer Jr.",
+      "resumen": "Un resumen breve sobre ti y tus habilidades",
+      "ubicacion": "Buenos Aires, Argentina.",
+      "email": "DiegoGomez1521@gmail.com",
+      "telefono": "11-3149-4893"
+    },
+    "educacion": [
+      {
+        "institucion": "Instituto Nacional de Tecnologio Industrial",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/INTI.svg/1200px-INTI.svg.png",
+        "titulo": "Certificado Programador Full Stack Jr.",
+        "inicio": "10/2022",
+        "finalizado": "05/2023",
+        "descripcion": "Breve descripción de los estudios realizados"
+      },
+      {
+        "institucion": "Instituto Nacional de Tecnologio Industrial", 
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/INTI.svg/1200px-INTI.svg.png",
+        "titulo": "Certificado de Finalizado de curso de programación informática.",
+        "inicio": "2022",
+        "finalizado": "2022",
+        "descripcion": "Breve descripción de los estudios realizados"
+      },
+      {
+        "institucion": "Colegio Lausanne",
+        "logo": "https://www.colegiosenbuenosaires.com/wp-content/uploads/2020/10/colegio-lausanne_en-lanus_escudo-logo.jpg",
+        "titulo": "Bachillerato - Economía y Administración.",
+        "inicio": "2015",
+        "finalizado": "2021",
+        "descripcion": "Breve descripción de los estudios realizados"
+      }
+    ],
+    "experiencia": [
+      {
+        "puesto": "Pasantia en el área de Cross Docking",
+        "logo": "https://media.licdn.com/dms/image/C4E0BAQGh9F1O_wHDSA/company-logo_100_100/0/1639512920011?e=2147483647&v=beta&t=PAG5EHg3z14qBUrhBxwgN1Zqoc8mzAAwG4naAtlsLTE",
+        "empresa": "Mercado Libre",
+        "inicio": "Enero 2023",
+        "finalizado": "Enero 2023",
+        "descripcion": "Introducción al trabajo en equipo y coordinación, Ways Of Working y ADN MELI."
+      }
+    ],
+    "proyectos": [
+      {
+        "titulo": "Mi Portfolio",
+        "fecha": "10/22 - Actualidad",
+        "descripcion": "Mi Portfolio es un CV online donde muestro mi manejo sobre diferentes tecnologias.",
+        "tecnologias": [
+          "Git, HTML, CSS, JavaScript, Bootstrap, Angular, Node.js, Java, Apache Net Beans, MySQL"
+        ]
+      }
+    ],
+    "habilidades": [
+      {"HTML": 30,
+      "CSS": 20,
+      "JavaScript": 20,
+      "Bootstrap": 20,
+      "Node.js": 20,
+      "Java": 15,
+      "MySQL": 30 
+    }
+    ],
+    "idiomas": [
+      {
+        "idioma": "Nombre del idioma",
+        "nivel": "Nivel de competencia en el idioma (por ejemplo, básico, intermedio, avanzado)"
+      },
+      {
+        "idioma": "Otro idioma",
+        "nivel": "Nivel de competencia en el idioma"
+      }
+    ],
+    "enlaces": [
+      {
+        "nombre": "Nombre descriptivo del enlace",
+        "url": "URL del enlace"
+      },
+      {
+        "nombre": "Otro enlace",
+        "url": "URL del enlace"
+      }
+    ]
+  }
+  

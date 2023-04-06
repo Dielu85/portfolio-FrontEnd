@@ -1,0 +1,15 @@
+.unit{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-flex;
+    padding: 30px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+h1 {
+    text-align: center
+}

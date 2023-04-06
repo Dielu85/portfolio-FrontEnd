@@ -1,8 +1,8 @@
 <div class="card mat-card" id="first-card" style="margin: 10px 9px; border-top: 0;">
-    <div class="div" id="profile-background"><img src="https://i.pinimg.com/originals/b7/4b/2d/b74b2dfeca58f0955c51876c24fcf227.jpg" alt="background image" class="responsive"></div>
+    <div class="div" id="profile-background"><img [src]="miPortfolio.informacion_personal.backimg" alt="background image" class="responsive"></div>
     <div id="info" style="padding: 16px;">
      <div id="info-img">
-       <img class="profile-image" src="https://media.licdn.com/dms/image/D4D03AQFv6Pez9hcF-w/profile-displayphoto-shrink_800_800/0/1674789243618?e=2147483647&v=beta&t=L1QgvRiziiSU_L62R6_kreFm0R26LqymszOUEd6Ce7Y" alt="Diego Gomez">
+       <img class="profile-image" [src]="miPortfolio.informacion_personal.foto" alt="foto">
          <div class="btn-edit">
           <a href="#" class="btn-right">
             <i class="fa fa-pen"></i>
@@ -11,11 +11,10 @@
      </div>
      <div id="info-data">
        <div>
-        <h1 class="title">Diego Gomez</h1>
-        <div id="info-company">Estudiante de Programación en INTI</div>
-        <div id="info-contact">
-          <span>Buenos Aires (Argentina)</span>
-          <span><a href="#">Información de contacto</a> </span>
+        <h1 class="title" id="info-name">{{miPortfolio.informacion_personal.nombre}}</h1>
+        <div id="info-title">{{miPortfolio.informacion_personal.titulo}}</div>
+        <div id="info-place">
+          <span>{{miPortfolio.informacion_personal.ubicacion}}</span>
         </div>
        </div>
      </div>

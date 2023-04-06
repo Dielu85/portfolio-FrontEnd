@@ -1,0 +1,16 @@
+<div class="card mat-card" id="second-card">
+	<h1>Experiencia Laboral:</h1>
+	<ul>
+	    <li *ngFor="let experiencia of experienciaList ">
+			<div class="trabajo">
+				<img [src]="experiencia.logo" alt="Logo">
+	        	<h2>{{experiencia.empresa}}</h2>
+		        <p><strong>Cargo:</strong> {{experiencia.puesto}}</p>
+		        <p><strong>Fecha de Inicio:</strong> {{experiencia.inicio}}</p>
+		        <p><strong>Fecha de Término:</strong> {{experiencia.finalizado}}</p>
+		        <p><strong>Descripción:</strong> {{experiencia.descripcion}}</p>
+			</div>  
+		</li>
+	</ul>
+    
+</div>

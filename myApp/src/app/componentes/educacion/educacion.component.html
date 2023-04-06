@@ -1,0 +1,16 @@
+<div class="card mat-card" id="third-card">
+	<h1> Educacion: </h1>
+	<ul>
+		<li *ngFor="let educacion of educacionList ">
+			<div class="educacion">
+				<img [src]="educacion.logo" alt="Logo">
+				<h2>{{educacion.institucion}}</h2>
+				<p><strong>Titulo:</strong> {{educacion.titulo}}</p>
+				<p><strong>Fecha de Inicio:</strong> {{educacion.inicio}}</p>
+				<p><strong>Fecha de Término:</strong> {{educacion.finalizado}}</p>
+			</div>
+		  <hr>
+		</li>
+	</ul>
+</div>
+

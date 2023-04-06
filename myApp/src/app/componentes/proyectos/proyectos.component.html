@@ -1,0 +1,14 @@
+<div class="card mat-card" id="fifth-card">
+	<h1> Proyectos </h1>
+    <ul>
+	    <li *ngFor="let proyectos of proyectoList ">
+			<div class="proyecto">
+	        	<h2></h2>
+		        <p><strong>Nombre:</strong> {{proyectos.titulo}}</p>
+		        <p><strong>Fecha:</strong> {{proyectos.fecha}}</p>
+		        <p><strong>Descripción:</strong> {{proyectos.descripcion}}</p>
+				<p><strong>Tecnologias usadas:</strong> {{proyectos.tecnologias}}</p>
+			</div>  
+		</li>
+	</ul>
+</div>

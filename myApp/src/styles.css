@@ -16,6 +16,15 @@
     width: 100%;
     border-radius: 32px 32px 0 0;
 }
+.navbar img {
+    height: 35px;
+    width: 45px;
+    display: inline-flex;
+}
+/* .navbar-brand {
+    display: flex;
+    color: aliceblue;
+}*/
 .profile-image {
     border-radius: 50%;
     width: 152px;
@@ -27,11 +36,11 @@
 div#info-actions {
     display: flex;
 }
-.btn-edit {
+/*.btn-edit { 
     
-}
+}*/
 .btn-right {
-    display: flex;
+    display: inline-flex;
     position: relative;
     left: 170px;
     top: -40px;
