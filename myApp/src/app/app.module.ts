@@ -9,9 +9,14 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
-import { GraficoComponent } from './componentes/habilidades/grafico/grafico.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -22,13 +27,16 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     EducacionComponent,
     HabilidadesComponent,
     ProyectosComponent,
-    GraficoComponent
+    IniciarSesionComponent,
+    PortfolioComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
 
   ],
   providers: [],
