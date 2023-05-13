@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+/*import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AutenticacionService {
-  url = "http://npinti.ddns.net:9008/api/auth/login";
+  url = "";
   currentUserSubject: BehaviorSubject <any>;
   constructor(private http:HttpClient) {
     console.log("El servicio de autenticacion esta corriendo.");
@@ -21,3 +21,4 @@ export class AutenticacionService {
     }))
    }
 }
+*/
